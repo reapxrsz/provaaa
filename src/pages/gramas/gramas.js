@@ -19,9 +19,8 @@ export default function Gramas() {
         setTotal(valor);
     }
 
-    useEffect(()=>{
+    useEffect(() => {
         calcularTotal()
-
     }, [gramas]);
 
     return (
