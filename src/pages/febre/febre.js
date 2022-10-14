@@ -39,7 +39,7 @@ export default function situacaoCorp(){
     }, [temp, situacao]);
 
     return(
-        <section>
+        <section className='sct'>
             <div>
                 <h2 className='tit'> Situação corporal </h2>
 
